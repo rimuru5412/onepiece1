@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, innitial-scale=1.0"> 
+        <title>ONE PIECE</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="banner" id="sec">
+            <header>
+                <a href="#" class="logo">ONE PIECE</a>
+                <div id="toggle" onclick="toggle()"></div>
+            </header>
+            <div class="content">
+                <h2>Hello,<br> I'm <span>Thanh Dat</span></h2>
+                <p>A boy named Monkey D. Luffy, encouraged by his childhood hero Shanks "Red Hair", sets sail on a journey to find the legendary treasure One Piece and become the Pirate King. To do this, he must reach the end of the most dangerous and deadly sea in the world: the Grand Line.</p>
+                <a href="#">Know More</a>
+            </div>
+            <ul class="sci">
+                <li>
+                    <a href="#"> <img src="facebook.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"> <img src="twitter.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"> <img src="linkedin.png" alt=""></a>
+                </li>
+            </ul>
+        </section>
+        <div id="navigation">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <script type="text/javascript">
+            function toggle(){
+                var sec =document.getElementById('sec');
+                var nav =document.getElementById('navigation');
+                sec.classList.toggle('active')
+                nav.classList.toggle('active')
+            }
+        </script>
+    </body>
+</html>
